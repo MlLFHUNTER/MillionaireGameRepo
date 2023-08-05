@@ -224,6 +224,7 @@ class Game:
                 else:
                     print("Вибачте, відповідь неправильна. Гра закінчена.")
                     print(f"Ваш виграш становить: {self.current_prize} грн.")
+                    print(f"Ви відповіли правильно на {self.correct_answers} питань")
                     time.sleep(2)
                     wrong_sound.play()
                     return
